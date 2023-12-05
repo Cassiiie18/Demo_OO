@@ -70,7 +70,7 @@ namespace Event.models
             BatterieFaible?.Invoke(this, EventArgs.Empty);
             Console.WriteLine("LA batterie a passé le seuil de 20% ... Veuillez recharger !!!");
 
-        }
+        }  
 
         #endregion
     }
